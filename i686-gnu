@@ -1,0 +1,12 @@
+[binaries]
+    ar = 'i686-linux-gnu-ar'
+    c = ['ccache', 'i686-linux-gnu-gcc']
+    cpp = ['ccache', 'i686-linux-gnu-g++', '-fno-exceptions', '-fno-unwind-tables', '-fno-asynchronous-unwind-tables', '-static-libstdc++']
+    strip = 'i686-linux-gnu-strip'
+    pkgconfig = 'i686-linux-gnu-pkg-config'
+
+[host_machine]
+    system = 'linux'
+    cpu_family = 'x86'
+    cpu = 'i686'
+    endian = 'little'
